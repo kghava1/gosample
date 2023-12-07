@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kghava1_gosample_1701962024648-pr-trigger-input-set
+  identifier: Build_kghava1_gosample_1701962024648prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kghava1_gosample_1701962024648
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
