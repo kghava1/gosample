@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kghava1_gosample_1701962256785-push-trigger-input-set
+  identifier: Build_kghava1_gosample_1701962256785pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kghava1_gosample_1701962256785
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
